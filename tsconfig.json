@@ -9,6 +9,8 @@
       "dom",
       "es2015"
     ],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "jsx": "react-jsx"
   }
 }
