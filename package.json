@@ -1,6 +1,6 @@
 {
   "name": "swc-plugin-another-transform-imports-test",
-  "version": "1.12.0",
+  "version": "1.13.0",
   "private": true,
   "scripts": {
     "dev": "rspack serve",
@@ -13,8 +13,8 @@
     "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "@rspack/cli": "1.4.8",
-    "@rspack/core": "1.4.8",
+    "@rspack/cli": "1.5.5",
+    "@rspack/core": "1.5.5",
     "@rspack/plugin-react-refresh": "1.4.3",
     "@swc/core": "1.12.14",
     "@types/lodash": "^4.17.16",
@@ -23,7 +23,7 @@
     "@types/react-dom": "19.1.5",
     "react-refresh": "^0.18.0",
     "swc-loader": "^0.2.6",
-    "swc-plugin-another-transform-imports": "1.12.0",
+    "swc-plugin-another-transform-imports": "1.13.0",
     "ts-node": "^10.9.2",
     "typescript": "5.8.3"
   },
