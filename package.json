@@ -1,6 +1,6 @@
 {
   "name": "swc-plugin-another-transform-imports-test",
-  "version": "1.13.0",
+  "version": "1.14.0",
   "private": true,
   "scripts": {
     "dev": "rspack serve",
@@ -13,17 +13,17 @@
     "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "@rspack/cli": "1.5.5",
-    "@rspack/core": "1.5.5",
+    "@rspack/cli": "1.6.6",
+    "@rspack/core": "1.6.6",
     "@rspack/plugin-react-refresh": "1.4.3",
-    "@swc/core": "1.12.14",
+    "@swc/core": "1.14.0",
     "@types/lodash": "^4.17.16",
     "@types/node": "^24.10.1",
     "@types/react": "19.1.4",
     "@types/react-dom": "19.1.5",
     "react-refresh": "^0.18.0",
     "swc-loader": "^0.2.6",
-    "swc-plugin-another-transform-imports": "1.13.0",
+    "swc-plugin-another-transform-imports": "1.14.0",
     "ts-node": "^10.9.2",
     "typescript": "5.8.3"
   },
@@ -37,6 +37,8 @@
     "onlyBuiltDependencies": [
       "@swc/core"
     ],
-    "overrides": {}
+    "overrides": {
+      "swc-plugin-another-transform-imports": "link:../../home/lonelyhentxi/.local/share/pnpm/global/5/node_modules/swc-plugin-another-transform-imports"
+    }
   }
 }
